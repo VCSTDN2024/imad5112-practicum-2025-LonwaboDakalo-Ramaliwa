@@ -66,48 +66,54 @@ The main screen is where the user will input data into the app where all input w
  ![Home Screen1](https://github.com/user-attachments/assets/63fd4206-4750-4be3-bb3f-8077e4c836ba)
 
 Figure 1: Home Screen 1
- 
+ ![Home Screen 2](https://github.com/user-attachments/assets/8be6d65d-16f4-4ce3-be10-8f9fa46b9308)
 Figure 2: Home Screen 2
- 
+ ![Home Screen 3](https://github.com/user-attachments/assets/5aa0cc69-1a6e-4850-a502-71380e159396)
+
 Figure 3: Home Screen 3
 Second Screen
 This is the playlist screen it is designed to display all the input that was inserted into the main screen. All equations were sent into a new kt file just to simplify the process and help maintain order
- 
+ ![Playlist 1](https://github.com/user-attachments/assets/31728341-d174-4cb1-8155-3db7ffa48a03)
+
 Figure 4: Secondary Screen 1
- 
+ ![Playlist 2](https://github.com/user-attachments/assets/c69b6ddf-af55-4313-a2ae-0c466e2c6d9a)
+
 Figure 5: Secondary Screen 2
 KT Class File
 The Kt file is here to do the calculations and simply the actions needed to get the app to function properly. All calculations are in this file and other functions are still in their original kt files so it is easier to manage and keep track of errors since all  Booleans are in the original kt and all formulas / equations are in this kt file.
- 
+ ![Manager 1](https://github.com/user-attachments/assets/141331c8-c62a-42f5-906b-aa75d0c90b90)
+
 Figure 6: Manager 1
- 
+ ![Manager 2](https://github.com/user-attachments/assets/1ea12747-2d00-4929-bbe5-700cf4bfa356)
+
 Figure 7: Manager 2
 
 App Screenshots (Emulator)
 Main Screen 
 The following screenshots will show the following:
-Figure 8: The is not empty function and its toast (Error handling)
-Figure 9: Input being entered into app
-Figure 10: Input being transferred into Array
-Figure 11: Data in Array being Cleared
+![Empty](https://github.com/user-attachments/assets/0a3a5777-2ae4-438a-915e-fa98ebd9a23e)
 
- 
-Figure 8: Empty
- 
-Figure 9: Input
- 
-Figure 10: Input in Array
- 
-Figure 11: Array Data Cleared
+Figure 8: The is not empty function and its toast (Error handling)
+![All input inserted](https://github.com/user-attachments/assets/eb3964ff-38a6-4e86-ae47-f7bca28c13b8)
+
+Figure 9: Input being entered into app
+![Added into Array](https://github.com/user-attachments/assets/47702fbd-befd-46ef-bc29-814c6adc621c)
+
+Figure 10: Input being transferred into Array
+![Clear Button](https://github.com/user-attachments/assets/3e21a335-7d47-4ff4-b048-fa9f73284a96)
+
+Figure 11: Data in Array being Cleared
 
  
 Second Screen
 The following screenshots for the second page include the following:
 Figure 12: A blank second screen, no input has been inserted yet and a toast providing users with app directions
 Figure 13: An index being displayed, including the display of total songs in the array and the average rating.
- 
+ ![Blank Playlist](https://github.com/user-attachments/assets/ee57070e-8e0e-4aef-9e7f-996eb0531cb3)
+
 Figure 12: Blank Playlist
- 
+ ![Playlist Table after input](https://github.com/user-attachments/assets/6ca2c7e9-e554-47fe-9173-4eba95249147)
+
 Figure 13: Data being displayed from second page
  
 
