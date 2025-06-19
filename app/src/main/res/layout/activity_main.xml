@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:padding="20dp"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_height="80dp"
+        android:text="Welcome To The Music Playlist Manager"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/txtSong"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text=""
+        android:hint="Enter Song Name"
+        android:layout_marginBottom="15dp"/>
+
+    <EditText
+        android:id="@+id/txtArtist"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text=""
+        android:hint="Enter Artist Name"
+        android:layout_marginBottom="15dp"/>
+
+    <TextView
+        android:id="@+id/txtRating"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Rating"
+        android:textSize="30sp"
+        android:layout_marginBottom="5dp"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroupRating"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="15dp">
+
+        <RadioButton android:id="@+id/rdoRating1" android:text="1" android:minWidth="48dp" android:minHeight="48dp" android:layout_height="48dp" android:layout_width="match_parent"/>
+        <RadioButton android:id="@+id/rdoRating2" android:text="2" android:minWidth="48dp" android:minHeight="48dp" android:layout_height="48dp" android:layout_width="match_parent"/>
+        <RadioButton android:id="@+id/rdoRating3" android:text="3" android:minWidth="48dp" android:minHeight="48dp" android:layout_height="48dp" android:layout_width="match_parent"/>
+        <RadioButton android:id="@+id/rdoRating4" android:text="4" android:minWidth="48dp" android:minHeight="48dp" android:layout_height="48dp" android:layout_width="match_parent"/>
+        <RadioButton android:id="@+id/rdoRating5" android:text="5" android:minWidth="48dp" android:minHeight="48dp" android:layout_height="48dp" android:layout_width="match_parent"/>
+    </RadioGroup>
+
+    <EditText
+        android:id="@+id/txtComment"
+        android:layout_width="match_parent"
+        android:layout_height="60sp"
+        android:text=""
+        android:hint="Enter Comment"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add to Playist"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Clear"
+        android:layout_marginBottom="15dp"/>
+    <Button
+        android:id="@+id/btnList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View Playlist"
+        android:layout_marginBottom="15dp"/>
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Exit" />
+
+</LinearLayout>
